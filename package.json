@@ -75,6 +75,11 @@
     "worker-loader": "^0.7.1"
   },
   "dependencies": {
+    "@sa-labs/graphql-directory-api": "file:../leo/packages/graphql-directory-api",
+    "@sa-labs/leo-core": "file:../leo/packages/leo-core",
+    "@sa-labs/leo-plugin-blogpost": "file:../leo/packages/leo-plugin-blogpost",
+    "@sa-labs/leo-plugin-images": "file:../leo/packages/leo-plugin-images",
+    "@sa-labs/leo-plugin-markdown": "file:../leo/packages/leo-plugin-markdown",
     "babel-runtime": "^6.6.1",
     "babel-standalone": "^6.10.3",
     "bootstrap": "^3.3.6",
